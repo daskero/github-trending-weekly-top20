@@ -1,29 +1,29 @@
 # GitHub 本周热门项目 Top 20
 
-> 数据来源：GitHub Trending 官方页面 · 抓取时间：2026-08-17 11:03
+> 数据来源：GitHub Trending 官方页面 · 抓取时间：2026-08-25 23:57
 
 | 排名 | 仓库 | ⭐ 总 Star | 📈 本周新增 | 语言 | 简介 |
 |:---:|------|--------:|--------:|------|------|
-| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 19,610 | +15,600 | HTML | 29 种编辑级图表模板，用于 Claude Code，自包含 HTML+SVG |
-| 2 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 16,594 | +6,435 | TypeScript | 自我改进的 RLM Agent，用于编码工作流与长时间自主任务 |
-| 3 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 461,897 | +6,237 | Python | 免费公共 API 合集列表 |
-| 4 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 8,213 | +5,284 | Python | 面向上下文与可问责 AI 系统的图原生基础设施 |
-| 5 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 22,261 | +3,637 | TypeScript | 腾讯云出品的团队级 AI Agent 记忆中枢，将对话/文档/代码转化为四种可复用记忆资产 |
-| 6 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 6,628 | +2,950 | Python | 14MB 超小基础模型，适配手机、可穿戴、智能家居与机器人 |
-| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,778 | +2,882 | JavaScript | 生产级 AI 编码 Agent 工程技能集 |
-| 8 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 22,248 | +2,875 | Python | 将技术书籍 PDF 转为 Claude Code 可用技能 |
-| 9 | [anthropics/skills](https://github.com/anthropics/skills) | 169,775 | +2,698 | Python | Anthropic 官方 Agent Skills 公共仓库 |
-| 10 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 72,639 | +2,645 | Python | 本地 UI 运行与训练 LLM 及扩散模型（Qwen3.8、Kimi K3、DeepSeek-V4 等） |
-| 11 | [macro-inc/macro](https://github.com/macro-inc/macro) | 3,422 | +2,588 | Rust | 统一团队工作空间：邮件、聊天、文档、任务、Agent、通话与 CRM 集成 |
-| 12 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 78,530 | +2,499 | TypeScript | 开源的 Agent 工作管理平台 |
-| 13 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 62,556 | +2,082 | Python | 小红书/抖音/快手/B站/微博/贴吧/知乎多平台爬虫 |
-| 14 | [3b1b/manim](https://github.com/3b1b/manim) | 91,362 | +1,978 | Python | 数学解释性视频动画引擎 |
-| 15 | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | 4,434 | +1,686 | Python | 基于 AI 与知识图谱的 Monorepo RAG 工具 |
-| 16 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40,079 | +1,518 | JavaScript | 企业级应用生成平台，构建内部工具/仪表盘/工作流/AI Agent |
-| 17 | [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | 1,698 | +1,435 | Rust | NVIDIA 出品，LLM 应用跨模型/提供商流量路由，兼容 OpenAI/Anthropic API |
-| 18 | [megadose/holehe](https://github.com/megadose/holehe) | 13,300 | +1,287 | Python | 通过忘记密码功能检查邮箱在各网站的注册情况 |
-| 19 | [basecamp/omarchy](https://github.com/basecamp/omarchy) | 25,438 | +759 | Shell | Basecamp 出品的现代化 Linux 发行版 |
-| 20 | [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | 9,058 | +497 | Python | LTX-2 音视频生成模型官方推理与 LoRA 训练包 |
+| 1 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 116,300 | +10,647 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频 |
+| 2 | [openai/codex](https://github.com/openai/codex) | 117,896 | +10,571 | Rust | OpenAI 官方终端轻量编码 Agent |
+| 3 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 470,269 | +7,069 | Python | 免费公共 API 合集列表 |
+| 4 | [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) | 16,296 | +7,019 | Rust | 罗技 Options+ 的本地原生替代品，Rust 编写，支持按键重映射/DPI/SmartShift，无需账号无遥测 |
+| 5 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 16,900 | +4,341 | JavaScript | GPT-Image2 工业级提示词引擎与模板库，530+ 案例逆向工程，20+ 套工业级模板 |
+| 6 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 33,198 | +4,048 | Python | 字节火山引擎出品，面向 AI Agent 的自进化上下文数据库，统一 Agent Memory、Knowledge RAG 与 Skills |
+| 7 | [basecamp/omarchy](https://github.com/basecamp/omarchy) | 30,881 | +3,934 | Shell | Basecamp 出品的现代化 Linux 发行版 |
+| 8 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 49,612 | +3,877 | Python | 免费使用 Claude Code、Codex、Pi、OpenCode（13 亿+ 免费 tokens），支持终端/IDE/手机 |
+| 9 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 31,075 | +2,845 | Python | 817 个结构化网络安全技能，映射 MITRE ATT&CK 等 6 大框架，兼容 Claude Code/Copilot/Codex 等 20+ 平台 |
+| 10 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 4,531 | +2,520 | Rust | 面向 Agent 编码 CLI 的长期记忆方案，支持不同 Agent 厂商间的上下文交接 |
+| 11 | [modular/modular](https://github.com/modular/modular) | 29,123 | +2,285 | Mojo | Modular 平台（含 MAX 与 Mojo 语言） |
+| 12 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 10,775 | +2,235 | Python | 面向上下文与可问责 AI 系统的图原生基础设施 |
+| 13 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 9,111 | +1,897 | Python | 14MB 超小基础模型，适配手机、可穿戴、智能家居与机器人 |
+| 14 | [jundot/omlx](https://github.com/jundot/omlx) | 20,610 | +1,689 | Python | Apple Silicon LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理 |
+| 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 74,674 | +1,576 | Python | 本地 UI 运行与训练 LLM 及扩散模型（Qwen3.8、Kimi K3、DeepSeek-V4 等） |
+| 16 | [apache/maka](https://github.com/apache/maka) | 3,178 | +1,313 | TypeScript | Apache 孵化项目，本地优先 AI Agent 工作空间，以追加日志记录消息/工具调用/权限决策 |
+| 17 | [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) | 14,032 | +1,310 | Python | 基于 OpenStreetMap 数据绘制精美地图（osmnx + matplotlib + shapely） |
+| 18 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 5,843 | +1,212 | Python | 腾讯出品的全栈 AI 红队平台，覆盖 Agent 扫描/技能扫描/MCP 扫描/AI 基础设施扫描与 LLM 越狱评估 |
+| 19 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39,127 | +1,186 | Python | 自驱产品构建平台，提供 AI 可观测性、分析、会话回放、功能开关、实验、错误追踪等 |
+| 20 | [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) | 1,585 | +877 | Python | Anthropic 官方 Claude Cowork 与 Claude Code 社区插件市场 |
 
 ---
 
@@ -31,29 +31,30 @@
 
 ### 技术主题
 
-本周 GitHub Trending 呈现出 **AI Agent 生态全面爆发** 的鲜明特征：
+本周 GitHub Trending 呈现三大鲜明主题：
 
-1. **Agent Skills 成为新范式**：Top 20 中至少 5 个项目直接与 AI Agent 技能/记忆/管理相关（diagram-design、agent-skills、TencentDB-Agent-Memory、paperclip、anthropics/skills），说明 "Agent 技能化" 正在从概念走向工程实践。
+1. **AI 视频生成赛道爆发**：MoneyPrinterTurbo 以 +10,647 star 领跑全场，AI 一键生成短视频工具持续获得大量关注，反映出内容创作自动化需求的强劲增长。
 
-2. **端侧小模型崛起**：cactus-compute/needle（14MB 基础模型）本周 +2,950 star，反映出将 AI 能力下沉到手机/可穿戴/物联网设备的需求正在快速增长。
+2. **AI Agent 基础设施持续深化**：OpenViking（字节火山引擎，Agent 上下文数据库）、ai-memory（Agent 长期记忆）、apache/maka（Agent 工作空间）、semantica（图原生 AI 基础设施）密集上榜，Agent 基础设施正从 "概念验证" 走向 "工程落地"。
 
-3. **AI 开发工具链成熟**：code-graph-rag（知识图谱 RAG）、prime-agent（自改进编码 Agent）、book-to-skill（书籍转技能）等工具密集上榜，表明 AI 辅助编程的工具链正在快速分层与专业化。
+3. **终端编码 Agent 竞争白热化**：openai/codex（+10,571）与 free-claude-code（+3,877）同时上榜，加上上周的 prime-agent，终端 AI 编码助手赛道已成为本周最热的基建战场。Rust 语言在这一领域表现突出（codex、OpenLogi、ai-memory 均为 Rust）。
 
 ### 亮点项目点评
 
-- **cathrynlavery/diagram-design**（+15,600 ⭐）：本周绝对王者。29 种自包含 HTML+SVG 图表模板，专为 Claude Code 设计，无 Mermaid 依赖、无阴影特效，走极致简洁路线。爆火原因：开发者急需在 AI 编码助手内直接生成高质量架构图/流程图，这个项目恰好填补了空白。
+- **harry0703/MoneyPrinterTurbo**（+10,647 ⭐）：本周冠军。基于 AI 大模型一键生成高清短视频，支持主题/关键词输入。总 star 已达 11.6 万，本周新增超过 1 万，说明 AI 视频生成正从 "尝鲜" 走向 "规模化使用"。
 
-- **TencentCloud/TencentDB-Agent-Memory**（+3,637 ⭐）：腾讯云出品的 Agent 记忆中枢，将对话、文档、代码转化为四种可复用记忆资产（Chat Memory、Skill、LLM-Wiki、Code-Graph），支持跨 Agent 框架共享。这代表了 Agent 基础设施从 "单次对话" 向 "持久化团队记忆" 演进的方向。
+- **AprilNEA/OpenLogi**（+7,019 ⭐）：罗技 Options+ 的开源替代品，Rust 编写。无需账号、无遥测，支持按键重映射/DPI/SmartShift。开发者对硬件厂商强制账号与数据收集的反感催生了这类项目的爆发。
 
-- **NVIDIA-NeMo/Switchyard**（+1,435 ⭐）：NVIDIA 官方的 LLM 流量路由器，兼容 OpenAI/Anthropic 原生 API，支持跨模型动态切换、性能基准测试与成本优化。在企业多模型混用场景下非常实用。
+- **volcengine/OpenViking**（+4,048 ⭐）：字节火山引擎出品，将 Agent Memory、Knowledge RAG 和 Skills 统一为自进化的上下文数据库。代表了大厂对 Agent 基础设施标准化的布局，与上周腾讯的 TencentDB-Agent-Memory 形成呼应——国内云厂商正在 Agent 记忆/上下文管理赛道上密集卡位。
 
 ### 技术选型建议
 
-结合你当前的技术栈（Python/Go/Vue3/PHP），以下项目值得关注：
+结合你的技术栈（Python/Go/Vue3/PHP），以下项目值得关注：
 
-- **MediaCrawler**：如果你需要扩展小红书/抖音爬虫能力，这个多平台统一爬虫框架可作为参考。
-- **unsloth**：本地训练和运行 LLM 的利器，适合在 CRM 智能客服等场景做模型微调。
-- **code-graph-rag**：Monorepo 级别的代码知识图谱 RAG，对大型代码库的 AI 辅助理解很有价值。
-- **ToolJet**：如果需要快速搭建内部管理工具/仪表盘，可作为低代码方案评估。
+- **openai/codex**：OpenAI 官方终端编码 Agent，如果你日常使用 CLI 开发，可作为效率工具评估。
+- **unsloth**：本地 LLM 训练运行利器，适合 CRM 智能客服场景的模型微调，在 Apple Silicon 上表现优秀。
+- **jundot/omlx**：Apple Silicon 上的 LLM 推理服务器，macOS 菜单栏管理，适合你在本地 Mac 上运行模型。
+- **Tencent/AI-Infra-Guard**：腾讯出品的 AI 安全红队平台，如果你的项目涉及 AI Agent 部署，可用于安全评估。
+- **marceloprates/prettymaps**：基于 OpenStreetMap 绘制精美地图，如果有地理位置可视化需求可直接使用。
 
-> 注：本周全语言 Trending 页面共展示 16 个项目，第 17-20 名从 Python 语言趋势页补充，已按本周新增 Star 数降序排列。
+> 注：本周全语言 Trending 页面展示 15 个项目，第 16-20 名从 Python 语言趋势页补充，已统一按本周新增 Star 降序排列。
