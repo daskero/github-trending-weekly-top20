@@ -1,120 +1,73 @@
-# GitHub Trending 周榜监测报告
+# GitHub Trending 周榜 Top 20 报告
 
-> **监测周期**：2026-08-25 ~ 2026-08-31（周榜）
-> **数据来源**：GitHub Trending 官方页面（全语言周榜，共采集 20 个条目，已满足 Top 20 需求，无需语言榜补量；Python/Go 语言榜作为附录补充观察）
-> **采集方式**：WebFetch 抓取官方页面两次交叉验证，数据一致
+**榜单周期**：上周（Weekly） · **生成日期**：2026-09-07
 
----
-
-## 一、本周 Top 20 榜单（按本周新增 Star 降序）
+## 一、榜单 Top 20（按本周新增 Star 降序）
 
 | 排名 | 仓库 | 总 Star | 本周新增 | 语言 | 简介 |
-|:---:|:---|---:|---:|:---:|:---|
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 37,171 | **+18,103** | JavaScript | Agent skill：生成架构图/工作流/时序图/数据流图，自包含 HTML + 动效 + 高清导出 |
-| 2 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 26,215 | **+13,413** | JavaScript | Prompt as Code \| GPT-Image2 工业级提示词引擎与模板库，530+ 案例逆向工程，20+ 工业级模板 |
-| 3 | [omacom/omarchy](https://github.com/omacom/omarchy) | 35,918 | +6,692 | Shell | Beautiful, Modern & Opinionated Linux（极简现代 Arch Linux 发行版） |
-| 4 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 38,893 | +5,348 | Python | 本地运行的 AI 求职框架（基于 Claude Code）：评估 JD、定制简历、写求职信、面试准备 |
-| 5 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 40,415 | +4,309 | Python | 把任意 AI Agent 变成 AI 科学家：165 个验证过的科学 Skills + 100+ 科研数据库，19 万科研人员在用 |
-| 6 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 51,508 | +3,720 | Python | AI 工程从零学起：Learn it. Build it. Ship it for others. |
-| 7 | [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) | 18,062 | +3,406 | Rust | Logitech Options+ 的原生本地替代品：按键重映射/DPI/SmartShift，无账号无遥测 |
-| 8 | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 23,209 | +3,037 | TypeScript | 34 个免费 LLM 供应商、635 个免费模型端点统一到一个 /v1 端点，智能路由 + 自动故障转移 |
-| 9 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 39,148 | +2,526 | Rust | 个人 AI 超级智能：本地优先的生活记忆库 + agent 舰队编排器 + 深度研究器 |
-| 10 | [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) | 3,001 | +2,162 | Python | Claude Cowork / Claude Code 社区插件市场（官方只读镜像） |
-| 11 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 25,979 | +2,085 | TypeScript | 清华开源多 Agent 互动课堂：一键获得沉浸式多 Agent 学习体验 |
-| 12 | [apache/maka](https://github.com/apache/maka) | 4,286 | +1,973 | TypeScript | Apache Maka（孵化中）：本地优先 AI Agent 工作区，消息/工具调用/权限决策以 append-only 日志记录 |
-| 13 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 35,702 | +1,940 | Python | Anthropic 官方维护的高质量 Claude Code 插件目录 |
-| 14 | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | 76,612 | +1,909 | Python | 截图转代码（HTML/Tailwind/React/Vue） |
-| 15 | [every-app/open-seo](https://github.com/every-app/open-seo) | 15,534 | +1,881 | TypeScript | Semrush / Ahrefs 的开源替代品 |
-| 16 | [cursor/plugins](https://github.com/cursor/plugins) | 6,335 | +1,503 | TypeScript | Cursor 插件规范与官方插件 |
-| 17 | [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) | 11,873 | +1,222 | CSS | ConardLi 开源 Skills 集合：网页设计、知识检索、图像生成等 |
-| 18 | [asciimoo/hister](https://github.com/asciimoo/hister) | 3,386 | +1,006 | Go | 你自己的搜索引擎 |
-| 19 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | 29,465 | +992 | Python | 全自动移除语言模型审查（uncensor） |
-| 20 | [google/googletest](https://github.com/google/googletest) | 39,401 | +441 | C++ | GoogleTest - Google 测试与 Mock 框架 |
+|---|---|---|---|---|---|
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 51,212 | +17,190 | JavaScript | Agent Skill：生成可验证的架构图/工作流图/时序图/数据流图，自包含 HTML + 动效 + 高清导出 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 129,707 | +12,186 | JavaScript | 让 AI Agent 像「最懒的资深工程师」一样思考——最好的代码是你没写的代码 |
+| 3 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 32,555 | +9,193 | TypeScript | 开放多智能体交互课堂，一键获得沉浸式多 Agent 学习体验 |
+| 4 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 20,007 | +7,513 | Python | 开源全本地 ElevenLabs 替代：声音克隆、语音设计、视频配音、转写与有声书制作，支持 646 种语言 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 251,669 | +6,394 | JavaScript | Agent harness 性能优化系统：技能、本能、记忆、安全与研究优先开发，适配 Claude Code/Codex/Cursor |
+| 6 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 43,377 | +4,718 | Python | 把任意 AI Agent 变成 AI Scientist，165 个科研 Skills + 100+ 科学数据库 |
+| 7 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 59,230 | +3,816 | Python | 🧠 2 小时从零训练 64M 参数 LLM |
+| 8 | [google-research/timesfm](https://github.com/google-research/timesfm) | 31,680 | +3,203 | Python | Google 出品的时间序列基础模型（Time Series Foundation Model） |
+| 9 | [every-app/open-seo](https://github.com/every-app/open-seo) | 17,547 | +2,503 | TypeScript | Semrush / Ahrefs 的开源替代品 |
+| 10 | [tailscale/tailcat](https://github.com/tailscale/tailcat) | 6,587 | +2,467 | Go | 像 netcat，但跑在 Tailscale 数据平面上，无需控制面 |
+| 11 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 46,626 | +2,334 | Python | Claude Code 学术研究 Skills：研究 → 写作 → 评审 → 修订 → 定稿 |
+| 12 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 7,984 | +2,093 | Python | 中国专利 Skill：专利点挖掘与交底书编写（发明/实用/外观），辅助审查答复 |
+| 13 | [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) | 3,764 | +1,961 | TypeScript | 开源推理服务器：按硬件跑最强本地模型，接入现有 Agent 工作流 |
+| 14 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 32,858 | +1,944 | TypeScript | runs anywhere, uses anything——Claude 开放运行时 |
+| 15 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 25,628 | +1,885 | C++ | 现代格式化库（C++ 标准库 std::format 的源头） |
+| 16 | [Lakr233/vphone-cli](https://github.com/Lakr233/vphone-cli) | 11,004 | +1,478 | Swift | iOS 虚拟设备命令行工具 |
+| 17 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 94,506 | +1,326 | 多语言 | MCP 服务器精选清单 |
+| 18 | [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) | 1,837 | +1,122 | Python | Microduck（mjlab）强化学习训练环境 |
+| 19 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 51,192 | +965 | TypeScript | Chrome DevTools 官方 MCP，供编码 Agent 使用 |
+| 20 | [majd/ipatool](https://github.com/majd/ipatool) | 10,983 | +893 | Go | 搜索并下载 App Store ipa 包的命令行工具 |
 
-**语言分布**：Python 7 ｜ TypeScript 5 ｜ JavaScript 2 ｜ Rust 2 ｜ Shell / C++ / CSS / Go 各 1
-
----
+> 本周全语言页面共抓取 21 个仓库条目，满足 Top 20 要求，无需启用指定语言兜底策略；已按本周新增 Star 去重降序排列。
 
 ## 二、本周技术趋势解读
 
-### 主题一：AI Agent 生态全面接管榜单（13/20 与 AI/Agent 直接相关）
+**1. 「Agent Skills」成为新的爆发赛道。** 榜单前三名全部与 Agent 技能/编排直接相关（archify 架构图生成、ponytail 编码哲学、ECC harness 优化），加上 scientific-agent-skills、academic-research-skills、patent-disclosure-skill 三个垂直领域 Skills 库——「Skills 即产品」的形态已经成型：不写完整应用，只交付一段可被 Claude Code / Cursor / Codex 直接加载的能力包。ECC 总 Star 高达 25 万，说明 Agent 工程化的受众基数已远超传统开发工具。
 
-本周最显著的事实：**20 个上榜项目中 13 个与 AI Agent / LLM 直接相关，其中 9 个紧密围绕 AI 编程工具生态**——Claude 官方插件目录（#10、#13）、社区插件市场、Cursor 插件规范（#16）、Agent Skills 库（#1、#5、#17）、Agent 工作区（#12）、基于 Claude Code 的求职框架（#4）。编程工具的"插件化 + Skills 化"已从概念验证走向生态爆发，头部厂商（Anthropic、Cursor、Apache 基金会）均在抢建分发入口。
+**2. 多模态与语音全面本地化。** VoiceStudio（+7.5k）证明「全本地、隐私优先」的语音工作流是刚需，ElevenLabs 的开源替代正在语音克隆/配音/转写全链路铺开。
 
-### 主题二："Skills / Prompt as Code" 成为新范式
+**3. MCP 生态从清单走向基建。** awesome-mcp-servers 持续霸榜（9.4 万 Star），Chrome 官方下场做 chrome-devtools-mcp，MCP 已经成为 Agent 连接工具的事实标准协议。
 
-冠军 archify（周增 18,103）本质是一个 Agent Skill——让 AI 编程助手学会画专业架构图；亚军 awesome-gpt-image-2 直接打出 "Prompt as Code" 旗号，把提示词当代码工程化管理（逆向工程 530+ 案例）。**"可复用、可版本化、可分发的提示词资产"正在成为独立的技术品类**，而非散落在 README 里的技巧。
+**4. AI 教育出现新范式。** THU-MAIC/OpenMAIC 把「多智能体」引入课堂，是本周唯一的产学研结合型项目，来自清华。
 
-### 主题三：local-first 与数据主权回归
-
-maka（append-only 日志记录一切 Agent 行为）、openhuman（本地记忆库）、OpenLogi（无账号无遥测）、ai-job-search（数据不出本机）、hister（自建搜索引擎）——用户对"AI 便利 vs 数据外流"的权衡开始反向发酵，**"本地优先 + 隐私优先"成为 AI 应用的新卖点**。
-
-### 主题四：开源替代商业软件浪潮持续
-
-open-seo（替代 Semrush/Ahrefs，周增 1,881）、OpenLogi（替代罗技 Options+）、hister（替代谷歌式搜索）。AI 降低了复杂软件的开发门槛，垂直领域"平替"项目将持续涌现。
-
-### 风向小结
-
-- **风向 1**：Agent Skills 生态位 = 早期的 npm / VS Code 插件市场，先发者享受红利窗口
-- **风向 2**：TypeScript 占全语言榜 25%，仍是 AI 应用层默认语言；Python 靠 AI 工程/科研保持存在感；Rust 在系统级 AI 工具（本地推理、外设管理）稳步渗透
-- **风向 3**：Go 的热点集中在 AI 网关/模型路由（见附录），Go + LLM 基础设施是明确赛道
-
----
+**5. 传统基础设施仍在稳步迭代。** fmt（C++）、tailcat（Go）、ipatool（Go）提醒我们：Agent 浪潮之下，网络工具与系统级库依然有稳定需求。
 
 ## 三、亮点项目点评
 
-### 1. tt-a1i/archify —— 周增 18,103 星登顶，"给 AI 编程助手装上画图技能"
+**🥇 tt-a1i/archify（+17,190）**
+一周破 1.7 万 Star 的现象级项目。它解决的是 AI 时代的真实痛点：架构图经常是「画完就过期」的一次性产物。archify 生成的图表是自包含 HTML，带动效、可验证（verifiable）、支持高清导出——图表本身成为可执行的架构文档。对文档驱动团队和系统设计评审场景极有价值。
 
-一个 Agent Skill 就拿下全站周榜第一，信号意义极强：它验证了 **Skills 作为独立发布单元的商业/传播价值**。功能上，它生成架构图、工作流、时序图、数据流图和生命周期图，输出自包含 HTML（带动效）并支持高清导出。对于需要频繁输出系统设计文档的团队，这类 Skill 可直接嵌入 Claude Code / Cursor 工作流，替代 draw.io 的手工绘图环节。**周增 18k 相当于第二名的 1.35 倍，是本周毫无争议的现象级项目。**
+**🥈 DietrichGebert/ponytail（+12,186）**
+25 万总 Star 的 ECC 之外本周最有趣的「Agent 哲学」项目：教 AI 像「最懒的资深工程师」一样思考。核心洞察很反直觉但很对——好的 AI 编码不是生成更多代码，而是产出最少的、可删除的代码。它本质是一套注入式 prompt/技能，可作为对现有编码 Agent 的「性格补丁」。
 
-### 2. freestylefly/awesome-gpt-image-2 —— 周增 13,413 星，国产"提示词工程化"代表作
+**🥉 debpalash/VoiceStudio（+7,513）**
+全本地语音工作站：克隆、设计、配音、转写、有声书一条龙，646 种语言支持是最大卖点。对需要处理隐私敏感音频（如客服录音、会议纪要）的团队，这是摆脱 SaaS 依赖的完整方案，也是典型的「开源打 SaaS」路线样本。
 
-国内开发者作品，方法论清晰：对 GPT-Image2 的 530+ 个生成案例做逆向工程，提炼出 20+ 套工业级模板和可复用 Skills，持续更新。它的价值不在单个提示词，而在**把"文生图调优"从玄学变成可版本管理的工程资产**——这正是国内落地页/营销素材生产链条最缺的一环。对做图片批量生成、营销视觉标准化的团队，这是一个现成的方法论库。
+## 四、技术选型建议（结合 Python/Go/Vue3/PHP 技术栈）
 
-### 3. asciimoo/hister —— 周增 1,006 星，增速比最高的"潜伏者"
-
-Go 语言项目，定位"你自己的搜索引擎"。值得注意两点：其一，作者 asciimoo 是老牌元搜索引擎 **searx 的原作者**，在隐私搜索领域有深厚积累；其二，总 Star 仅 3,386 而周增 1,006——**"本周新增/总量"高达 29.7%，是全榜单早期爆发力最强的项目**（对比：archify 该比值为 48.7% 但体量已大，hister 属于刚起飞阶段）。对于需要多源数据聚合检索的场景，这个项目值得在早期就跟踪其架构演进。
-
----
-
-## 四、技术选型建议（结合 Python / Go / Vue3 / PHP 技术栈）
-
-### Python（爬虫 / FastAPI / Flask 场景）
-
-- **直接可借鉴**：Python 周榜被 Claude Code 生态刷屏（约 9/20 相关）。`ai-engineering-from-scratch`（51.5k 总星）适合作为 AI 工程体系化学习主线；`scientific-agent-skills` 的 165 个验证过的 Skills 结构（兼容 Cursor / Claude Code / Codex / 开放 Agent Skills 标准）可作为自建 Skill 库的参考蓝本。
-- **落地建议**：现有爬虫项目（小红书/抖音/拍卖）可演进为"爬取 + LLM 分析"两段式 agent workflow——爬虫产出结构化数据，LLM 层做摘要/分类/监控告警；文章处理 API（Flask）同理，叠加 LLM 管线成本低、收益直接。
-
-### Go（企业微信会话存档 / 后端服务场景）
-
-- **风向明确**：Go 周榜 Top3 中的 `workweave/router`（智能体模型路由器，50ms 内路由请求、宣称降本 40-70%，周增 2,053）与 `QuantumNous/new-api`（46.9k 星，LLM 聚合网关）、`Tencent/WeKnora`（21k 星，RAG 知识平台）共同指向 **"Go + LLM 基础设施"赛道**。
-- **落地建议**：会话存档项目积累的聊天数据 + RAG 是天然组合——会话存档（数据采集层）→ 知识库构建（RAG 层）→ 智能问答/销售辅助（应用层），这正是简化 SCRM 项目的差异化方向；模型路由/网关层则适合统一管理多 LLM 调用、控制成本。
-
-### Vue3（落地页编辑器 / 前端场景）
-
-- **直接相关**：`abi/screenshot-to-code`（76.6k 总星，本周仍在涨 1,909）支持输出 **Vue** 代码。落地页编辑器（LandingPageEditView / CustomPage / 名片板块）可评估集成其能力，实现"参考截图 → 生成初版页面 → 人工微调"的制作流，显著降低模板制作成本。
-- **观察参考**：`THU-MAIC/OpenMAIC`（清华，多 Agent 互动课堂）的交互式 Agent UI 值得拆解——多角色对话流、流式渲染、状态编排这些组件模式可迁移到聊天式落地页（QAFormView）的增强上。
-
-### PHP（CRM / Layui 场景）
-
-- **需要正视**：本周全语言 Top 20 中 **PHP 项目为零**（语言榜亦未见踪影），PHP 在新兴 AI Agent 生态中缺席明显。
-- **落地建议**：CRM 的智能化不必强求 PHP 生态内闭环，走 **"PHP 业务层 + Python/Go AI 服务"混合架构**更务实——PHP 继续承担订单/退款/签约等强事务逻辑，AI 能力（智能客服、会话质检、线索评分）以独立微服务输出，通过 MQ/Webhook 解耦（现有 RabbitMQ 基础可直接复用）。文章处理 API（Flask）实际上已是这个模式的雏形。
+- **Python**：本周最大赢家（8/20 席位）。VoiceStudio 值得纳入现有文章处理 API（scinsoft.com/tools）的语音扩展评估；minimind 是理解 LLM 训练全流程的最佳教具，适合低成本补齐 AI 基础；timesfm 可关注其在 CRM 销售预测（crm_consult 数据）上的时序预测潜力。
+- **Go**：tailcat 展示了 Tailscale 数据面编程模式，对 wecom-chat-archive 的跨机部署组网（本地 ↔ VM-0-4-opencloudos 服务器）可直接借鉴——用 Tailscale 替代公网暴露端口更安全。
+- **Vue3/前端**：archify 的「自包含 HTML 图表」思路可反哺 OKR 看板和落地页编辑器（单文件交付、无后端依赖）；OpenMAIC 的多 Agent 课堂交互模式对聊天式落地页（QAFormView）有交互设计参考价值。
+- **PHP/Agent 化**：Agent Skills 浪潮目前以 TS/Python 为主，PHP 生态尚未跟进——如果考虑给 mooxu.com 多租户平台或 CRM 增加「AI 技能包」能力，可以趁早评估用 MCP 协议做桥接层，让 PHP 后端通过 MCP Server 形式暴露业务能力（表单、客户、发票数据），这是低成本切入 Agent 生态的方式。
+- **通用建议**：ponytail 的「少写代码」哲学 + ECC 的 harness 优化思路，都指向同一个方向——把重复工作沉淀为可复用 Skills/自动化，与当前用自动化脚本抓取 Trending 的做法一致。
 
 ---
 
-## 附录：语言榜补充观察（Python / Go 周榜精选）
-
-> 全语言页面已采集满 20 条，以下为补充抓取的语言周榜数据节选，用于趋势交叉验证。
-
-**Python 周榜值得关注的补充项目**：calesthio/OpenMontage（开源 agentic 视频生产系统，周增 4,974）、Alishahryar1/free-claude-code（免费 Claude Code/Codex 接入，周增 4,324）、AgriciDaniel/claude-obsidian（Obsidian + Claude 自组织第二大脑，周增 3,156）、jingyaogong/minimind（2 小时从零训练 64M 参数 LLM，总星 55.8k）、pipecat-ai/pipecat（语音 Agent 框架）。
-
-**Go 周榜值得关注的补充项目**：workweave/router（智能体模型路由器，周增 2,053，全周增第一）、QuantumNous/new-api（LLM 聚合网关，周增 862）、Tencent/WeKnora（RAG 知识平台，周增 553）、MHSanaei/3x-ui（多协议代理面板，周增 493）。Go 榜国产项目活跃：WeKnora、1Panel、new-api、higress、certimate 等。
-
----
-
-*数据来源：GitHub Trending 官方页面 · 抓取时间：2026-08-31 22:27*
+数据来源：GitHub Trending 官方页面 · 抓取时间：2026-09-07 12:43
 
 历史记录：
 
 [2026年8月17日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8817%E6%97%A5.md) |
 
 [2026年8月24日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8824%E6%97%A5.md) |
+
+[2026年8月31日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8831%E6%97%A5.md) |
