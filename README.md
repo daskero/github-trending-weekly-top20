@@ -1,73 +1,81 @@
-# GitHub Trending 周榜 Top 20 报告
+# GitHub Trending 周榜报告（2026-09-07 ~ 2026-09-13）
 
-**榜单周期**：上周（Weekly） · **生成日期**：2026-09-07
+> 抓取方式：GitHub Trending 官方 weekly 页面（WebFetch + curl/HTML 解析交叉验证，23 个条目全部采集，去重后按本周新增 star 降序取 Top 20）
 
-## 一、榜单 Top 20（按本周新增 Star 降序）
+## 一、本周 Top 20 榜单
 
 | 排名 | 仓库 | 总 Star | 本周新增 | 语言 | 简介 |
 |---|---|---|---|---|---|
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 51,212 | +17,190 | JavaScript | Agent Skill：生成可验证的架构图/工作流图/时序图/数据流图，自包含 HTML + 动效 + 高清导出 |
-| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 129,707 | +12,186 | JavaScript | 让 AI Agent 像「最懒的资深工程师」一样思考——最好的代码是你没写的代码 |
-| 3 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 32,555 | +9,193 | TypeScript | 开放多智能体交互课堂，一键获得沉浸式多 Agent 学习体验 |
-| 4 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 20,007 | +7,513 | Python | 开源全本地 ElevenLabs 替代：声音克隆、语音设计、视频配音、转写与有声书制作，支持 646 种语言 |
-| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 251,669 | +6,394 | JavaScript | Agent harness 性能优化系统：技能、本能、记忆、安全与研究优先开发，适配 Claude Code/Codex/Cursor |
-| 6 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 43,377 | +4,718 | Python | 把任意 AI Agent 变成 AI Scientist，165 个科研 Skills + 100+ 科学数据库 |
-| 7 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 59,230 | +3,816 | Python | 🧠 2 小时从零训练 64M 参数 LLM |
-| 8 | [google-research/timesfm](https://github.com/google-research/timesfm) | 31,680 | +3,203 | Python | Google 出品的时间序列基础模型（Time Series Foundation Model） |
-| 9 | [every-app/open-seo](https://github.com/every-app/open-seo) | 17,547 | +2,503 | TypeScript | Semrush / Ahrefs 的开源替代品 |
-| 10 | [tailscale/tailcat](https://github.com/tailscale/tailcat) | 6,587 | +2,467 | Go | 像 netcat，但跑在 Tailscale 数据平面上，无需控制面 |
-| 11 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 46,626 | +2,334 | Python | Claude Code 学术研究 Skills：研究 → 写作 → 评审 → 修订 → 定稿 |
-| 12 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 7,984 | +2,093 | Python | 中国专利 Skill：专利点挖掘与交底书编写（发明/实用/外观），辅助审查答复 |
-| 13 | [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) | 3,764 | +1,961 | TypeScript | 开源推理服务器：按硬件跑最强本地模型，接入现有 Agent 工作流 |
-| 14 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 32,858 | +1,944 | TypeScript | runs anywhere, uses anything——Claude 开放运行时 |
-| 15 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 25,628 | +1,885 | C++ | 现代格式化库（C++ 标准库 std::format 的源头） |
-| 16 | [Lakr233/vphone-cli](https://github.com/Lakr233/vphone-cli) | 11,004 | +1,478 | Swift | iOS 虚拟设备命令行工具 |
-| 17 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 94,506 | +1,326 | 多语言 | MCP 服务器精选清单 |
-| 18 | [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) | 1,837 | +1,122 | Python | Microduck（mjlab）强化学习训练环境 |
-| 19 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 51,192 | +965 | TypeScript | Chrome DevTools 官方 MCP，供编码 Agent 使用 |
-| 20 | [majd/ipatool](https://github.com/majd/ipatool) | 10,983 | +893 | Go | 搜索并下载 App Store ipa 包的命令行工具 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 43,840 | +15,924 | Python | 防止编码智能体"把答案埋起来"的 Skill，ADHD 友好输出 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 31,031 | +10,510 | JavaScript | 浏览器里的间谍卫星模拟器，数据真实，照片级 3D 地球上的开源空间情报 |
+| 3 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 60,218 | +10,442 | JavaScript | 生成美观可验证的架构/流程/时序/数据流/生命周期图的 Agent Skill，自包含 HTML + 动效导出 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 136,971 | +9,272 | JavaScript | 让 AI 智能体像"最懒的资深工程师"一样思考——最好的代码是你没写的代码 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 257,434 | +8,086 | JavaScript | 智能体 Harness 性能优化系统：Skills、直觉、记忆、安全与研究优先开发，适配 Claude Code/Codex/Cursor |
+| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 39,042 | +7,409 | HTML | 38 种编辑级图表样式，自包含 HTML + SVG，拒绝"Mermaid 垃圾感" |
+| 7 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 49,338 | +5,124 | TypeScript | 写 HTML 渲染视频，为智能体而生 |
+| 8 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 183,436 | +4,823 | Python | 微软出品的文件/Office 文档转 Markdown 工具 |
+| 9 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 36,343 | +4,417 | TypeScript | 清华开源多智能体互动课堂，一键沉浸式多 Agent 学习体验 |
+| 10 | [blader/humanizer](https://github.com/blader/humanizer) | 47,505 | +4,069 | Python | 去除文本中 AI 生成痕迹的 Agent Skill |
+| 11 | [obra/superpowers](https://github.com/obra/superpowers) | 286,013 | +3,938 | Shell | 智能体 Skills 框架与软件开发方法论 |
+| 12 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 49,898 | +2,822 | JavaScript | 面向 Claude Code 的营销 Skills：CRO、文案、SEO、分析、增长工程 |
+| 13 | [github/spec-kit](https://github.com/github/spec-kit) | 136,174 | +2,501 | Python | GitHub 官方规格驱动开发（Spec-Driven Development）工具包 |
+| 14 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 22,513 | +1,936 | TypeScript | AI 编码智能体的上下文窗口优化：沙箱化工具输出（降噪 98%）、会话记忆持久化、跨 17 平台路由（MCP + hooks） |
+| 15 | [openai/skills](https://github.com/openai/skills) | 27,054 | +1,579 | Python | OpenAI Codex 官方 Skills 目录 |
+| 16 | [humanlayer/skills](https://github.com/humanlayer/skills) | 3,951 | +1,380 | TypeScript | Humanlayer 的智能体 Skills 集合（官方未提供描述） |
+| 17 | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 8,965 | +1,307 | Python | 清除写作中 20+ 种"AI 味"模式 |
+| 18 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 22,776 | +1,168 | Go | 腾讯开源 LLM 知识平台：原始文档 → 可查询 RAG、自主推理 Agent、自维护 Wiki |
+| 19 | [openai/plugins](https://github.com/openai/plugins) | 6,577 | +1,120 | JavaScript | OpenAI 官方 Plugins |
+| 20 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | 15,507 | +1,011 | Python | 面向 CAD/CAE/CAM 的智能体 Skills 库 |
 
-> 本周全语言页面共抓取 21 个仓库条目，满足 Top 20 要求，无需启用指定语言兜底策略；已按本周新增 Star 去重降序排列。
+（未进 Top 20：ChromeDevTools/chrome-devtools-mcp +783、kunchenguid/firstmate +763、max-sixty/worktrunk +257）
+
+**语言分布（Top 20）**：Python 7 席 · JavaScript 5 席 · TypeScript 4 席 · Shell 1 席 · Go 1 席 · HTML 1 席
 
 ## 二、本周技术趋势解读
 
-**1. 「Agent Skills」成为新的爆发赛道。** 榜单前三名全部与 Agent 技能/编排直接相关（archify 架构图生成、ponytail 编码哲学、ECC harness 优化），加上 scientific-agent-skills、academic-research-skills、patent-disclosure-skill 三个垂直领域 Skills 库——「Skills 即产品」的形态已经成型：不写完整应用，只交付一段可被 Claude Code / Cursor / Codex 直接加载的能力包。ECC 总 Star 高达 25 万，说明 Agent 工程化的受众基数已远超传统开发工具。
+**1. "Agent Skills" 已从概念变成一个完整的赛道。** Top 20 中至少 11 个项目直接是 Agent Skill / Skills 框架（i-have-adhd、archify、ponytail、ECC、diagram-design、superpowers、marketingskills、humanizer、humanlayer/skills、no-ai-slop、text-to-cad、openai/skills）。Skill 的形态高度统一：给 Claude Code / Codex / Cursor 等编码智能体注入"领域方法论"，而不是写一个传统应用。这说明智能体生态的竞争焦点已从"更强的模型"转移到"更好的工程化配套"。
 
-**2. 多模态与语音全面本地化。** VoiceStudio（+7.5k）证明「全本地、隐私优先」的语音工作流是刚需，ElevenLabs 的开源替代正在语音克隆/配音/转写全链路铺开。
+**2. OpenAI 官方下场，Skills/Plugins 生态标准化。** openai/skills（Codex Skills 目录）和 openai/plugins 同时上榜，标志着 Skills 这种"给智能体外挂方法论"的形态获得了头部厂商的官方背书，预计会催生类似"App Store"的分发生态。
 
-**3. MCP 生态从清单走向基建。** awesome-mcp-servers 持续霸榜（9.4 万 Star），Chrome 官方下场做 chrome-devtools-mcp，MCP 已经成为 Agent 连接工具的事实标准协议。
+**3. 反 AI 味 / 输出质量控制成为独立需求。** i-have-adhd（+15.9k 居首）、humanizer、no-ai-slop、diagram-design（"No Mermaid slop"）都在解决同一个问题：AI 输出太多、太啰嗦、太模板化。用户开始为"让 AI 说人话"付费 star。
 
-**4. AI 教育出现新范式。** THU-MAIC/OpenMAIC 把「多智能体」引入课堂，是本周唯一的产学研结合型项目，来自清华。
+**4. 智能体工程方法论持续升温。** github/spec-kit（规格驱动开发）、ECC（研究优先开发）、obra/superpowers（开发方法论框架）表明"如何与智能体协作开发"本身正在被工具化、制度化。
 
-**5. 传统基础设施仍在稳步迭代。** fmt（C++）、tailcat（Go）、ipatool（Go）提醒我们：Agent 浪潮之下，网络工具与系统级库依然有稳定需求。
+**5. 多智能体与垂直应用落地。** 清华 OpenMAIC 把多智能体用于课堂教育；gods-eye-view 把卫星影像 + 3D 地球做成浏览器可用的空间情报工具——AI 应用开始向教育、地理空间等垂直场景纵深发展。
 
 ## 三、亮点项目点评
 
-**🥇 tt-a1i/archify（+17,190）**
-一周破 1.7 万 Star 的现象级项目。它解决的是 AI 时代的真实痛点：架构图经常是「画完就过期」的一次性产物。archify 生成的图表是自包含 HTML，带动效、可验证（verifiable）、支持高清导出——图表本身成为可执行的架构文档。对文档驱动团队和系统设计评审场景极有价值。
+**① ayghri/i-have-adhd（周增 +15,924，本周冠军）**
+一个只有几十行的 Prompt 级 Skill，却拿下周增 15.9k star——它解决的问题极其精准：编码智能体习惯把结论埋在长篇过程叙述里，逼用户读三屏才看到答案。它的爆火证明当前智能体生态的"低垂果实"不再是技术难题，而是体验细节。任何在做智能体产品的人都值得读一遍它的 SKILL.md。
 
-**🥈 DietrichGebert/ponytail（+12,186）**
-25 万总 Star 的 ECC 之外本周最有趣的「Agent 哲学」项目：教 AI 像「最懒的资深工程师」一样思考。核心洞察很反直觉但很对——好的 AI 编码不是生成更多代码，而是产出最少的、可删除的代码。它本质是一套注入式 prompt/技能，可作为对现有编码 Agent 的「性格补丁」。
+**② Tencent/WeKnora（周增 +1,168，Go 语言）**
+腾讯开源的 LLM 知识平台，一条龙解决"文档 → RAG → 推理 Agent → 自维护 Wiki"。对需要企业内知识库的团队来说是目前少有的 Go 技术栈选择（多数竞品是 Python），部署友好、资源占用低，且 Wiki 自维护（自动根据文档变化更新知识条目）是差异化亮点。
 
-**🥉 debpalash/VoiceStudio（+7,513）**
-全本地语音工作站：克隆、设计、配音、转写、有声书一条龙，646 种语言支持是最大卖点。对需要处理隐私敏感音频（如客服录音、会议纪要）的团队，这是摆脱 SaaS 依赖的完整方案，也是典型的「开源打 SaaS」路线样本。
+**③ tt-a1i/archify（周增 +10,442，连续多周上榜）**
+让智能体直接产出"自包含 HTML + 动效、可验证"的架构图/时序图/数据流图，替代手工画图和 Mermaid。对于需要在设计评审、技术方案文档中大量输出图的团队，这几乎是即插即用的生产力工具。
 
-## 四、技术选型建议（结合 Python/Go/Vue3/PHP 技术栈）
+## 四、技术选型建议（结合你的技术栈：Python / Go / Vue3 / PHP）
 
-- **Python**：本周最大赢家（8/20 席位）。VoiceStudio 值得纳入现有文章处理 API（scinsoft.com/tools）的语音扩展评估；minimind 是理解 LLM 训练全流程的最佳教具，适合低成本补齐 AI 基础；timesfm 可关注其在 CRM 销售预测（crm_consult 数据）上的时序预测潜力。
-- **Go**：tailcat 展示了 Tailscale 数据面编程模式，对 wecom-chat-archive 的跨机部署组网（本地 ↔ VM-0-4-opencloudos 服务器）可直接借鉴——用 Tailscale 替代公网暴露端口更安全。
-- **Vue3/前端**：archify 的「自包含 HTML 图表」思路可反哺 OKR 看板和落地页编辑器（单文件交付、无后端依赖）；OpenMAIC 的多 Agent 课堂交互模式对聊天式落地页（QAFormView）有交互设计参考价值。
-- **PHP/Agent 化**：Agent Skills 浪潮目前以 TS/Python 为主，PHP 生态尚未跟进——如果考虑给 mooxu.com 多租户平台或 CRM 增加「AI 技能包」能力，可以趁早评估用 MCP 协议做桥接层，让 PHP 后端通过 MCP Server 形式暴露业务能力（表单、客户、发票数据），这是低成本切入 Agent 生态的方式。
-- **通用建议**：ponytail 的「少写代码」哲学 + ECC 的 harness 优化思路，都指向同一个方向——把重复工作沉淀为可复用 Skills/自动化，与当前用自动化脚本抓取 Trending 的做法一致。
+1. **Go → WeKnora 值得深挖。** 你正在做的 wecom-chat-archive / 简化 SCRM 是 Go + Vue3 栈，WeKnora 同为 Go 后端，其 RAG 管道、文档解析、WebSocket 实时交互的工程实现可以直接参考；如果你的 CRM 要加"知识库/客服问答"能力，WeKnora 是最贴近你栈的选型。
+
+2. **Python → markitdown 可直接集成。** 发票系统、文章处理 API（scinsoft.com/tools/）都有"文档 → 结构化文本"的需求，markitdown 一个函数调用即可把 PDF/Office 转 Markdown，比自写解析器省大量维护成本。
+
+3. **Vue3/HTML → archify 与 diagram-design 的产物形态。** 这两个项目的共同思路是"自包含单文件 HTML 交付物"——与你偏好的纯 HTML 单文件交付完全一致。可以考虑给团队做一个内部 Skill：让智能体按你们的设计规范输出 CRM 统计页/落地页的可视化图表 HTML。
+
+4. **立刻可用的效率提升 → 装 2~3 个 Skill。** ponytail（让智能体少写代码）、i-have-adhd（输出直给结论）、spec-kit（规格驱动开发）零成本接入现有编码工作流，对你这种多项目并行、频繁上下文切换的开发节奏收益明显。
+
+5. **PHP 生态本周无热门项目上榜**，但 OpenAI Plugins 的标准化思路值得借鉴：把你的表单构建器/落地页编辑器的常用操作封装成"可复用方法论文档"，让 AI 编码智能体在 PHP 项目里也能稳定复现你的套路。
 
 ---
 
-数据来源：GitHub Trending 官方页面 · 抓取时间：2026-09-07 12:43
+数据来源：GitHub Trending 官方页面 · 抓取时间：2026-09-13 21:02
 
 历史记录：
 
-[2026年8月17日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8817%E6%97%A5.md) |
+[2026年9月7日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-9%E6%9C%887%E6%97%A5.md) |
+
+[2026年8月31日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8831%E6%97%A5.md) |
 
 [2026年8月24日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8824%E6%97%A5.md) |
 
-[2026年8月31日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8831%E6%97%A5.md) |
+[2026年8月17日](https://github.com/daskero/github-trending-weekly-top20/blob/main/top20-8%E6%9C%8817%E6%97%A5.md) |
